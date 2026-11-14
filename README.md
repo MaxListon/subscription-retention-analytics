@@ -67,7 +67,6 @@ dist/
   downloads/                     CSVs, report, charts, metrics and scenarios
  docs/
   data-dictionary.md             Table grains and relationships
-  interview-notes.md             Questions to prepare for
 ```
 
 ## Data and validation
