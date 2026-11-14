@@ -2,6 +2,10 @@
 
 **SQL · Python · SQLite · Interactive dashboard | Synthetic portfolio case study**
 
+[![Tests](https://github.com/MaxListon/subscription-retention-analytics/actions/workflows/tests.yml/badge.svg)](https://github.com/MaxListon/subscription-retention-analytics/actions/workflows/tests.yml)
+
+[Live interactive dashboard](https://maxliston.github.io/subscription-retention-analytics/)
+
 ## Business question
 Why can a subscription company acquire customers while recurring revenue declines?
 
@@ -22,8 +26,8 @@ This project builds an auditable analysis from synthetic customer, subscription,
 Displayed dollars are rounded; calculations use cents.
 
 ## Start here
-1. Read the [executive brief](dist/downloads/executive-brief.md).
-2. Download or clone this repository, then open **`dist/index.html`** in a browser for the interactive dashboard. GitHub's file viewer shows source rather than running the dashboard.
+1. Open the [live dashboard](https://maxliston.github.io/subscription-retention-analytics/) — no download needed.
+2. Read the [executive brief](dist/downloads/executive-brief.md).
 3. Inspect the [SQL transformations](sql/analysis.sql) and [Python generator](python/generate.py).
 4. Read the [full analysis and metric contract](dist/downloads/executive-report.md).
 
