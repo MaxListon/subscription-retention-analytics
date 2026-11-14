@@ -11,7 +11,7 @@ Why can a subscription company acquire customers while recurring revenue decline
 
 This project builds an auditable analysis from synthetic customer, subscription, event, invoice, payment, and product-usage records. It separates recurring revenue, invoiced charges, and collected cash, then identifies the movements behind declining MRR.
 
-> All data is synthetic. Behavioral relationships are intentionally encoded in the generator. Results demonstrate analytical methods, not actual customer behavior or achieved business impact.
+> All data is synthetic, and the behavioral relationships are intentionally encoded in the generator. What this demonstrates is the analytical method — not real customer behavior or business impact.
 
 ![December MRR bridge](dist/downloads/revenue-movement.svg)
 
@@ -102,4 +102,4 @@ New MRR is the first positive month-end snapshot. Reactivation requires an earli
 
 ## Data provenance
 
-All data is synthetic. Review the code, metric definitions, and assumptions alongside the reported results.
+All data is synthetic — read the code, metric definitions and assumptions alongside the numbers rather than taking them at face value.
